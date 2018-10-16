@@ -11,6 +11,7 @@
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>  
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="{{url_for('static', filename='css/main.css')}}"  rel="stylesheet" >
 </head>
 <body>
@@ -33,27 +34,21 @@
         <li><a href="#Habitats">Habitats</a></li>
         <li><a href="#Reptiles">reptiles</a></li>
 	<li><a href="#Mamals">Mamals</a></li>
-	<li><a href="Birds">Birds</a></li>
+	<li><a href="#Birds">Birds</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
 </div>
 
-<div class="jumbotron">
-	<img alt="Woodlands" src="../static/img/woodlands.JPG" />
-</div>
+
 	
+
+{% block content%}
+{% endblock %}
+
 	
 </div>
-	{% block content %}
-	{% endblock %}
-
-
-
 <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-
-
-
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </body>
 </html> 
