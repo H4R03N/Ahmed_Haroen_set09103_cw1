@@ -1,1 +1,17 @@
+img {
+	width: 100%;
+}
+
+.jumbotron {
+	margin-top:52px;
+}
+
+.navbar-nav {
+        width: 100%;
+        text-align: center;
+        > li {
+                float: none;
+                display: inline-block;
+          }
+        }
 

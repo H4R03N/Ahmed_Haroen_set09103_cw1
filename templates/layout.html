@@ -14,27 +14,46 @@
 	<link href="{{url_for('static', filename='css/main.css')}}"  rel="stylesheet" >
 </head>
 <body>
+
 <div class="container-flexible">
 
-	<div class="jumbotron">
-		<p>Image goes in here</p>
-	</div>
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Scottish Wildlife</a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#Habitats">Habitats</a></li>
+        <li><a href="#Reptiles">reptiles</a></li>
+	<li><a href="#Mamals">Mamals</a></li>
+	<li><a href="Birds">Birds</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
 
-
+<div class="jumbotron">
+	<img alt="Woodlands" src="../static/img/woodlands.JPG" />
+</div>
 	
-	<nav class="navbar navbar-inverse  navbar-static-top">
-  		<div class="container">
-    			
-			<ul>
-				<a href="{{url_for('index')}}">Home</a>	
-				<a href="about.html">About</a>
-				<a href="Profile.html">Profile</a>		
-			</ul>
-
- 		 </div>
-	</nav>	
+	
 </div>
 	{% block content %}
 	{% endblock %}
+
+
+
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+ <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+
+
 </body>
 </html> 
