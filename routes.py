@@ -6,5 +6,8 @@ app = Flask(__name__)
 def index():
 	return render_template('index.html')
 
+@app.route('/habitat')
+def habitat():
+	return render_template('habitat.html')
 
 
