@@ -22,12 +22,12 @@
 <ul>
 
 
-	{%  for reptiles  in data  %}
+	{% for reptiles  in data["reptiles"] %}
 
 
 
-	<li> {{ data.reptiles }} </li>
-
+	<li> {{ reptiles.name }} </li>
+	<li> {{ reptiles.desc    }}
 
 
 	{% endfor %}
