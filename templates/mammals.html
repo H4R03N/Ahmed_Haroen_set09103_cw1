@@ -15,9 +15,11 @@
 
 
         <h4> {{ mammals.name }} </h4>
+	<th>
         <li> {{ mammals.desc }} </li>
-        <li><img src=" {{ mammals.image }} ">  </li>
-
+	<th>
+        <li><img class="img-responsive" src=" {{ mammals.image }} ">  </li>
+	<th> 
 
         {% endfor %}
 

@@ -24,16 +24,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Scottish Wildlife</a>
+      <a class="navbar-brand" href="{{url_for('index')}}">Scottish Wildlife</a>
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li><a href="{{url_for('index')}}">Home</a></li>
-        <li><a href="{{url_for('habitat')}}">Habitats</a></li>
-        <li><a href="{{url_for('reptiles')}}">reptiles</a></li>
-	<li><a href="{{url_for('mammals')}}">Mammals</a></li>
-	<li><a href="{{url_for('birds')}}">Birds</a></li>
-	<li><a href="{{url_for('amphibian')}}">Amphibians</a></li>
+        <li class="{% if active=='index' %} active{%endif%}"  ><a href="{{url_for('index')}}">Home</a></li>
+        <li class="{% if active=='habitat' %} active{%endif%}"><a href="{{url_for('habitat')}}">Habitats</a></li>
+        <li class="{% if active=='reptiles' %} active{%endif%}"><a href="{{url_for('reptiles')}}">reptiles</a></li>
+	<li class="{% if active=='mammals' %} active{%endif%}"><a href="{{url_for('mammals')}}">Mammals</a></li>
+	<li class="{% if active=='birds' %} active{%endif%}"><a href="{{url_for('birds')}}">Birds</a></li>
+	<li class="{% if active=='amphibian' %} active{%endif%}"><a href="{{url_for('amphibian')}}">Amphibians</a></li>
       </ul>
     </div>
   </div>
@@ -51,9 +51,16 @@
 
 
 
-<div class="footer">
-  <p>Footer</p>
-</div>
+	<div class="footer">
+				<div class="row">
+					<div class="col-sm-4 col-sm-offset-2">
+						<a href="#">Cookie Policy</a>
+					</div>
+					<div class="col-sm-4 col-sm-offset-2">
+						<a href="#">Privacy Policy</a>
+					</div>
+				</div>
+	</div>
 
 
 

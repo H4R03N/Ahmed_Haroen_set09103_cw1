@@ -1,4 +1,9 @@
 
+p, ol, ul, li, a, h1, h2, h3, h4, h5 {
+font-family: Tahoma, Geneva, sans-serif;
+}
+
+
 .jumbotron img {
 	width: 100%;
 }
@@ -42,28 +47,35 @@
 	text-align:center;
 }
 .rep h4 {
-	margin:0;
+	margin-top:5px;
 	padding:5px;
-	background: #f4f4f4;
+	background: #222;
+	color: grey;
+}
+.footer .row {
+	background-color:#222;
+	width:50px;
+}
+ul {
+	list-style:none;
 }
 
+ul li {
+	margin-top: 10px;
+	margin-bottom: 10px;
 
-
-
+}
 .homepage_text {
-	margin-left:auto;
+	text:center;
 }
 
 .footer {
     
     left: 0;
     bottom: 0;
-    height:20px;
     width: 100%;
     background-color: #222;
     color: white;
-    text-align: center;
-
-}
+   }
 
 

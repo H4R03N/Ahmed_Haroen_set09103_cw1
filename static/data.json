@@ -24,15 +24,15 @@
 
 
 	"amphibian":[{
-		"me": "Common frog",
-                "desc": "Frogs are amphibians, coming to ponds to breed during the spring and spending much of the rest of the year feeding on dry land, in woodland, gardens, hedgerows and tussocky grassland. Frogs are familiar inhabitant of garden ponds, where they lay their eggs in bigt clumps of spawn. They feed on a variety of invertbrated and smaller amphibians. Females are bigger than males.t",
-                "image": "../static/img/common_frogi"
+		"name": "Common frog",
+                "desc": "Frogs are amphibians, coming to ponds to breed during the spring and spending much of the rest of the year feeding on dry land, in woodland, gardens, hedgerows and tussocky grassland. Frogs are familiar inhabitant of garden ponds, where they lay their eggs in bigt clumps of spawn. They feed on a variety of invertbrated and smaller amphibians. Females are bigger than males.",
+                "image": "../static/img/common_frog.jpg"
 
         },
 	       {
 		 "name": "Common toad",
 		"desc": "Toads are amphibians, breeding in ponds during the spring and spending much of the rest of the year feeding on dry land in woodland, gardens, hedgerows and tussocky grassland. Commong Toads breed in larger, deeper ponds that Common Frogs. They are famous for their mass migrations back to their breeding ponds on the first warm, damp evenings of the year, often around St. Valentine's Day.",
-		"image": "../static/img/common_toad"	
+		"image": "../static/img/common_toad.jpg"	
 	
 	},
 
@@ -49,7 +49,7 @@
 
 		"name": "Great crested newt",
                 "desc": "This species has suffered due to the loss of small ponds from our landscape caused by changes in land management practices. This amphibian gets its name from the jagged crest along the adult male's back, which gets larger in the breeding season. Both sexes are very dark in colour, with a vivid orange belly with irregular black spots. The great crested newt spends most of its life on land, though it must return to small freshwater ponds to breed. The nocturnal newt hunts its invertebrate prey by night and rest in samp grassland or leaf litter during the day. It usally lives within 250m of a breeding pond.",
-                "image": "../statoc/img/great_crested_newt.jpg"
+                "image": "../static/img/great_crested_newt.jpg"
 
         }
 
@@ -87,7 +87,7 @@
 
 		"name": "Capercaillie",
 		"desc": "This impressive bird, whose main habitat is poine woodland, is the world's largest grouse species. Capercaillie males weigh in at around 4kg -roughly the same as a turkey - while females are bout half that weight. So it seems apt that the Gaelic name for the birs is capall-coile, mneaning 'horse of the forest'. The species has declined significantly since the 1970s to just a few small, isolated and vulnerable populations, Foresters and conservationist have responded with 'capercailie-frienldy' management practices",	
-		"image": "../static/img/capercaillie.jpg"
+		"image": "../static/img/caipercallie.jpg"
 
 
 	},
