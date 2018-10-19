@@ -3,7 +3,7 @@
 	  "reptiles":[{  
 		"name": "Adder",
 		"desc": "Scotland's only native snake is also our most notorious reptile, as it's the only venemous one. Our only native snake is Scotland's sole venomous reptile. But the adder is a timid creature and unlikely to bite unless threatened. An adder's preffered defence is to hide in the undergrowth, But if a person gets too close, the adder will lash out to enable its escape. Most bites happen when people try to handle adders. if you find one in the wild, leave it alone and let it move away quitly of its own accord.",
-		"image": "../img/adder.jpg"
+		"image": "../static/img/adder.jpg"
 
 
 	},
@@ -12,13 +12,13 @@
 
 		"name": "Common Lizard",
 		"desc": "The common lizard, as its name suggests, is found widely across most of Scotland. Common lizards like to bask in open spaces and can often be heard scurrying into the undergrowth when disturbed. When trapped or afraid, the common lizard is able to shed part of its tail, leaving it wiggling in the path of a predator while the animal makes its escape. The animal can regrow the tail and perform the same display again if needed. Common lizards like to live on embakments and in gardens but tend to be found in areas where there are few cats. The species is less common in the Central Lowlands and isn't found at all in Northern Isles.",
-		"image": "../img/common_lizard.jpg"
+		"image": "../static/img/common_lizard.jpg"
 	
 	},
 	{ 
 		"name": "Slow worm",
 		"desc": "This legless lizard can grow to the size of a snake but lacks a venomous bite. The slow worm, a legless lizard, is fairly common across the country. Slow worms rarely bask in the sun. Instead, you can look for them under: stones, wood, compost heaps, bits of metal left lying around. The slow worm is quite common across Scotland and it is only reptile known to occur in the Outer Hebrides. Slow worms can live 15 years or more in the wild. Slow worms are found using places made by humans such as embankments, churchyards and gardens. Domestic cats often bring dead slow worms home",
-		"image": "../img/slow_worm.jpg"
+		"image": "../static/img/slow_worm.jpg"
 	}
 	],
 
@@ -26,20 +26,20 @@
 	"amphibian":[{
 		"me": "Common frog",
                 "desc": "Frogs are amphibians, coming to ponds to breed during the spring and spending much of the rest of the year feeding on dry land, in woodland, gardens, hedgerows and tussocky grassland. Frogs are familiar inhabitant of garden ponds, where they lay their eggs in bigt clumps of spawn. They feed on a variety of invertbrated and smaller amphibians. Females are bigger than males.t",
-                "image": "../img/common_frogi"
+                "image": "../static/img/common_frogi"
 
         },
 	       {
 		 "name": "Common toad",
 		"desc": "Toads are amphibians, breeding in ponds during the spring and spending much of the rest of the year feeding on dry land in woodland, gardens, hedgerows and tussocky grassland. Commong Toads breed in larger, deeper ponds that Common Frogs. They are famous for their mass migrations back to their breeding ponds on the first warm, damp evenings of the year, often around St. Valentine's Day.",
-		"image": "../img/common_toad"	
+		"image": "../static/img/common_toad"	
 	
 	},
 
         {
                 "name": "Netterjack toad",
                 "desc": "Scotland's rarest amphibian occurs in only a handful of sites on the south coast in Dumfriesshite. Restricted to a few places in Dumfriesshite, the natterjack toad a European protected species is Scotlands rarest amphibian. The natterjack taod is a very active species, adapted to life on open sandy heath and coastal grassland where it hunts at night by running after prey rather than sitting in ambush like frogs and common toads. Unlike other British amphibians it can dig its own burrow in the sand to avoid the heat of the day. It is found near the coast becase of this to live in open sandy habitat rather than any link to salt water.",
-                "image": "../img/natterjack.jpg"
+                "image": "../static/img/natterjack.jpg"
 
         },
 
@@ -49,7 +49,7 @@
 
 		"name": "Great crested newt",
                 "desc": "This species has suffered due to the loss of small ponds from our landscape caused by changes in land management practices. This amphibian gets its name from the jagged crest along the adult male's back, which gets larger in the breeding season. Both sexes are very dark in colour, with a vivid orange belly with irregular black spots. The great crested newt spends most of its life on land, though it must return to small freshwater ponds to breed. The nocturnal newt hunts its invertebrate prey by night and rest in samp grassland or leaf litter during the day. It usally lives within 250m of a breeding pond.",
-                "image": "../img/great_crested_newt.jpg"
+                "image": "../statoc/img/great_crested_newt.jpg"
 
         }
 
@@ -59,7 +59,7 @@
 	"mammals": [{
 		"name": "Deer",
 		"desc": "Four species of deer are found in Scotland: red, roe, fallow and sika, Red and roe deer are native species. Scotland's majestic red deer is our larges wild mammal- and one of our most impressive wildlife spectacles. An encouter with this iconic species is unforgettable. Striking and delicate, the roe deer is found throughout mainland Scotland. Roe deer are increasingly seen in towns and cities, as they onluy need a tiny amount of cover - some even live close to Glasgow city centre.",
-		"image": "../img/deer.jpg"	
+		"image": "../static/img/deer.jpg"	
 
 
 	},
@@ -67,14 +67,14 @@
 	{
 		"name": "Badger",
 		"desc": "Though seldom seen by us, the badger - Britain's biggest carnivore - is still found across Scotland, often in suprising numbers. Badgers are seldom seen in the wild despite their healthy population size, widespread distribution across mainland Scotland and easily reconisable form. This is largly due to their nocturnal habits and general shyness. These highly social animals have distinct social groups, typically of four to six adults, Badgers live in networks of underground tunnels called setts, and most social groups have a nujmber of setts in the territory they use. Most important is the main sett, where breeding and most other activity takes place/. You can spot a sett by its large entrances and mounds of excavated earth outseide. ",	
-		"image": "../img/badger.jpg"
+		"image": "../static/img/badger.jpg"
 	
 },
 
 	{
 		"name": "Otter",
 		"desc": "Scotland is a European stronghold for the otter, a species of the land, river and sea. The otter was lost from most of England and Wales between the 1950s and the 1970s because of pesticide pollution of waterwasy. Buyt it survived in Scotland's cleanest bodies of water in the north and west. Today, the species is flourishing across Scotland, and recovering well across the UK as waterways are cleaned up. The Scottish population is estimated to be around 8000 otters. ",
-		"image":  "../img/otter.jpg"
+		"image":  "../static/img/otter.jpg"
 
 
 }
@@ -87,7 +87,7 @@
 
 		"name": "Capercaillie",
 		"desc": "This impressive bird, whose main habitat is poine woodland, is the world's largest grouse species. Capercaillie males weigh in at around 4kg -roughly the same as a turkey - while females are bout half that weight. So it seems apt that the Gaelic name for the birs is capall-coile, mneaning 'horse of the forest'. The species has declined significantly since the 1970s to just a few small, isolated and vulnerable populations, Foresters and conservationist have responded with 'capercailie-frienldy' management practices",	
-		"image": "../img/capercaillie.jpg"
+		"image": "../static/img/capercaillie.jpg"
 
 
 	},
@@ -95,7 +95,7 @@
 	{
 		"name": "Crested tit",
 		"desc":  "This umistakable bird rarely strays far from Scots pine woodlands. Scotland's special subspecies of crested tit is called Lophophanes cristatus scoticus. other types of crested tit occur in Europe. ",
-		"image": "../img/crestedtit.jpg"
+		"image": "../static/img/crestedtit.jpg"
 
 
 }, 
@@ -103,7 +103,7 @@
 	{
 		"name": "Redstart",
 		"desc": "This colourful thrus, which journeys from Africa and Arabia each spring, is a distinctive visitor to Scotland. Redstart seek out holes in broadleaved trees for nesting, but also take readily to nest boxes. A good place to spot redstarts is Taynish National Nature Reserve in late spring and early summer. Visit in the early morning and you may see (and head) male redstarts at the very tops of the oak trees, defending their territories with song",
-		"image": "../img/redstart.jpg"
+		"image": "../static/img/redstart.jpg"
 
 }
 ]

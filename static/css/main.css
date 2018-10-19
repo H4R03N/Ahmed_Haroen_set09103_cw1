@@ -48,3 +48,14 @@
 }
 
 
+.footer {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    background-color: (51, 51, 51)
+    .footer-block {
+      margin: 20px 0;
+    }
+  }
+
+

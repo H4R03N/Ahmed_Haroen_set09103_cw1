@@ -10,12 +10,15 @@
 <ul>
 
 
-        {% for reptiles  in data["reptiles"] %}
+        {% for amphibian  in data["amphibian"] %}
 
 
 
-        <h4> {{ reptiles.name }} </h4>
-        <li> {{ reptiles.desc }} </li>
+        <h4> {{ amphibian.name }} </h4>
+        <li> {{ amphibian.desc }} </li>
+        <li><img src=" {{ amphibian.image }} ">  </li>
+
+
 
 
 
