@@ -1,8 +1,11 @@
 {
 
 	  "reptiles":[{  
-		"name": "snake",
-		"desc": "This species of snake life in Scotland"
+		"name": "Adder",
+		"desc": "Scotland's only native snake is also our most notorious reptile, as it's the only venemous one. Our only native snake is Scotland's sole venomous reptile. But the adder is a timid creature and unlikely to bite unless threatened. An adder's preffered defence is to hide in the undergrowth, But if a person gets too close, the adder will lash out to enable its escape. Most bites happen when people try to handle adders. if you find one in the wild, leave it alone and let it move away quitly of its own accord.",
+		"img": "adder.jpg"
+
+
 	},
 
 	{
@@ -12,7 +15,32 @@
 		"desc": "Spiders have 8 legs"
 	
 	}
+	],
+
+
+	"mammals":[{
+		"name": "cow",
+		"desc": "cows eat a lot",
+		"cat": "woodlands"	
+	
+
+	}
 	]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 	

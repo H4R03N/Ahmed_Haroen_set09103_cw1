@@ -14,14 +14,38 @@ def index():
 
 @app.route('/habitat')
 def habitat():
-	return render_template('habitat.html')
+	SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+	with open(os.path.join(SITE_ROOT,'static', 'data.json')) as f:
+		data = json.load (f)
+        	return render_template('habitat.html')
 
 @app.route('/reptiles')
-def repitles():
+def reptiles():
 	SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
 	with open(os.path.join(SITE_ROOT,'static', 'data.json')) as f:
 		data = json.load (f)
 		return render_template ('reptiles.html', data=data)
 
-	
+
+@app.route('/mammals')	
+def mammals():
+	SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+	with open (os.path.join(SITE_ROOT, 'static', 'data.json')) as f:
+		data = json.load (f)
+		return render_template ('mammals.html', data=data)
+
+
+@app.route('/birds')
+def birds():
+	SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+	with open (os.path.join(SITE_ROOT, 'static', 'data.json')) as f:
+		data = json.load (f)
+		return render_template ('birds.html', data=data)
+
+@app.route('/amphibian')
+def amphibian():
+	SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+	with open (os.path.join(SITE_ROOT, 'static', 'data.json')) as f:
+		data = json.load (f)
+		return render_template ('amphibian.html', data=data)
 

@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block content%}
+
+
+
+
+
+<div class="rep">
+<h1> Amphibians in Scotland </h1>
+<ul>
+
+
+        {% for reptiles  in data["reptiles"] %}
+
+
+
+        <h4> {{ reptiles.name }} </h4>
+        <li> {{ reptiles.desc }} </li>
+
+
+
+        {% endfor %}
+
+
+</ul>
+
+</div>
+{% endblock %}
+~
+
