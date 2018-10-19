@@ -35,31 +35,25 @@
 	<li><a href="{{url_for('birds')}}">Birds</a></li>
 	<li><a href="{{url_for('amphibian')}}">Amphibians</a></li>
       </ul>
-    </div><!--/.nav-collapse -->
+    </div>
   </div>
 </div>
 
 
+{% block content%}
+{%  endblock %}
+
 	
 
-{% block content%}
-{% endblock %}
 
 
 
 
 
 
-
-
-
-
-
-  <div id="footer">
-    <div class="container">
-      <p class="footer-block">Place sticky footer content here.</p>
-    </div>
-  </div>
+<div class="footer">
+  <p>Footer</p>
+</div>
 
 
 
@@ -67,5 +61,12 @@
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="{{url_for('static', filename='js/bootstrap.min.js')}}"</script>
+
+<script src="{{url_for('static', filename='js/bootstrap.js')}}"</script>
+
+
+
 </body>
-</html> 
+</html>
+
+ 
