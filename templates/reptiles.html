@@ -1,24 +1,37 @@
 {% extends "layout.html" %}
 {% block content%}
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<style>
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
-<br>
-<br>
-<br>
+.rep {
+        margin-top:100px;
+        width: 600px;
+        margin:auto;
+        overflow:hidden;
+}
 
-<br>
-<br>
-<br>
+.rep h1 {
+        text-align:center;
+}
+.rep h4 {
+        margin:0;
+        padding:5px;
+        background: #f4f4f4;
 
+}
+
+
+
+</style>
+<div class="rep">
+<h1> Reptiles in Scotland </h1>
 <ul>
 
 
@@ -26,8 +39,9 @@
 
 
 
-	<li> {{ reptiles.name }} </li>
-	<li> {{ reptiles.desc    }}
+	<h4> {{ reptiles.name }} </h4>
+	<li> {{ reptiles.desc }} </li>
+	
 
 
 	{% endfor %}
@@ -35,5 +49,5 @@
 
 </ul>
 
-
+</div>
 {% endblock %}
