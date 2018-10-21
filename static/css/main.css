@@ -1,8 +1,6 @@
-
 p, ol, ul, li, a, h1, h2, h3, h4, h5 {
-font-family: Tahoma, Geneva, sans-serif;
+	font-family: Tahoma, Geneva, sans-serif;
 }
-
 
 .jumbotron img {
 	width: 100%;
@@ -10,6 +8,13 @@ font-family: Tahoma, Geneva, sans-serif;
 
 .jumbotron {
 	margin-top:52px;
+	background-color: #c1f0c1;
+}
+
+.thumbnail {
+	border:none;
+	background-color: #c1f0c1;
+
 }
 
 .navbar-nav {
@@ -25,9 +30,7 @@ font-family: Tahoma, Geneva, sans-serif;
 
 	margin-top: 80px;
 	padding: 25px;	
-
 }
-
 
 .col-md-4 {
 	padding: 25px;
@@ -45,17 +48,16 @@ font-family: Tahoma, Geneva, sans-serif;
 
 .rep h1 {
 	text-align:center;
+	margin-top:35px;
 }
+
 .rep h4 {
 	margin-top:5px;
 	padding:5px;
 	background: #222;
-	color: grey;
+	color: white;
 }
-.footer{
-	background-color:#222;
-	width:20px;
-}
+
 ul {
 	list-style:none;
 }
@@ -65,17 +67,16 @@ ul li {
 	margin-bottom: 10px;
 
 }
-.homepage_text {
+.intro_text {
+	background-color: #c1f0c1;
 	margin-left: auto;
 }
 
-.footer {
-    
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #222;
-    color: white;
-   }
+.container-flexible {
+	background-color:#c1f0c1;
+}
 
+html {
+	background-color:#c1f0c1;
+}
 

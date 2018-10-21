@@ -3,9 +3,6 @@ from pprint import pprint
 import os
 import json
 
-
-
-
 app = Flask(__name__)
 
 @app.route('/')
@@ -49,3 +46,6 @@ def amphibian():
 		data = json.load (f)
 		return render_template ('amphibian.html', active='amphibian', data=data)
 
+@app.errorhandler(404)
+def not_found_error(error)
+	return render_template('404.html'), 404
