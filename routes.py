@@ -47,5 +47,5 @@ def amphibian():
 		return render_template ('amphibian.html', active='amphibian', data=data)
 
 @app.errorhandler(404)
-def not_found_error(error)
+def not_found_error(error):
 	return render_template('404.html'), 404

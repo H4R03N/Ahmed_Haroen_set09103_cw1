@@ -7,8 +7,8 @@
 <center>
         <div class="intro_text">
                 <h1>Error, The page you have requested is not found.</h1><br>
-                        <button type="button" class="btn btn-primary">
-  				Back
+                        <button onclick="goBack()" type="button" class="btn btn-primary">
+  				Previous Page
 			</button>
 
         </div>
@@ -16,6 +16,12 @@
 
 
 </div>
+
+<script>
+	function goBack(){
+		window.history.back();
+}
+</script>
 
 {% endblock %}
 ~
